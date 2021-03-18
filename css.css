@@ -1,0 +1,560 @@
+
+body{
+    background-color:black;
+}
+
+.pozadinaa{
+    position: absolute;
+    width: 1742px;
+    height: 1124px;
+    left: 115px;
+    top: 199px;
+    z-index:1;
+}
+
+.pozadina1{
+    position: absolute;
+    width:585px;
+    top:200px;
+    left: 1270px;
+    z-index:2;
+}
+
+.pozadina2{
+    position: absolute;
+    top:600px;
+    left: 0px;
+}
+
+.okvir{
+    position: absolute;
+    width: 1742px;
+    height: 1124px;
+    left: 114px;
+    top: 199px;
+    z-index:10;
+}
+
+.vecilogo{
+    position: absolute;
+    left: 2.76%;
+    right: 94.38%;
+    top: 3.68%;
+    bottom: 92.51%;
+    z-index:2;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 268px;
+    padding-left: 178px;
+    z-index:2;
+}
+
+.logo{
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    align-items: center;
+    gap: 2px;
+    z-index:2;
+}
+
+.malikruzic{
+    position: absolute;
+    left: 447px;
+    top: 254px;
+    z-index:2;
+}
+
+.headerdiv{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
+    gap: 72px;
+    z-index:2;
+}
+
+.motor{
+    position:absolute;
+    padding-left:135px;
+    padding-top:67px;
+    z-index:2;
+}
+
+.block5{
+    position:absolute;
+    padding-top:64px;
+    padding-left:134px;
+    z-index:3;
+}
+
+.block1{
+    position:absolute;
+    padding-top:67px;
+    padding-left:134px;
+    z-index:3;
+}
+
+.block2{
+    position:absolute;
+    padding-top:67px;
+    padding-left:980.52px;
+    z-index:3;
+}
+
+.okruglaslova{
+    position:absolute;
+    padding-top:110px;
+    padding-left:964px;
+    z-index:4;
+}
+
+.block6{
+    position:absolute;
+    padding-top:595px;
+    padding-left:134px;
+    z-index:3;
+}
+
+.block3{
+    position:absolute;
+    padding-top:67px;
+    padding-left:1180px;
+    z-index:3;
+}
+
+.nesto{
+    position:absolute;
+    padding-top:67px;
+    padding-left:1190px;
+    z-index:2;
+}
+
+.block4{
+    position:absolute;
+    padding-top:67px;
+    padding-left:1370px;
+    z-index:3;
+}
+
+.jp1{
+    position:absolute;
+    padding-top:643px;
+    padding-left:110px;
+    z-index:4;
+}
+
+.jp2{
+    position:absolute;
+    padding-top:643px;
+    padding-left:1020px;
+    z-index:4;
+}
+
+.minimotor{
+    position:absolute;
+    margin-top:-130px;
+    padding-left:1207px;
+    z-index:2;
+}
+
+.block7{
+    position:absolute;
+    margin-top:-130px;
+    padding-left:1207px;
+    z-index:3;
+}
+
+.block8{
+    position:absolute;
+    margin-top:-130px;
+    padding-left:1443px;
+    z-index:3;
+}
+
+.duja{
+    position:absolute;
+    padding-top: 50px;
+    padding-left:198px;
+    z-index:2;
+}
+
+.vecibar{
+    position:absolute;
+    padding-top: 57px;
+    padding-left:310px;
+    z-index:2;
+}
+
+.manjibar{
+    position:absolute;
+    padding-top: 57px;
+    padding-left:310px;
+    z-index:3;
+}
+
+.desetica{
+    position:absolute;
+    padding-top: 50px;
+    padding-left:576px;
+    z-index:2;
+}
+
+.textic{
+    position:absolute;
+    padding-top: 10px;
+    padding-left:725px;
+    z-index:2;
+}
+
+.sidebarbackground{
+    position: absolute;
+    left: 1513px;
+    top: 574px;
+    z-index:5;
+}
+
+.topspeed{
+    position: absolute;
+    padding-left: 1550px;
+    padding-top: 340px;
+    z-index:5;
+}
+
+.power{
+    position: absolute;
+    padding-left: 1550px;
+    padding-top: 510px;
+    z-index:5;
+}
+
+.torque{
+    position: absolute;
+    padding-left: 1550px;
+    padding-top: 660px;
+    z-index:5;
+}
+
+.fuelcapacity{
+    position: absolute;
+    padding-left: 1550px;
+    padding-top: 790px;
+    z-index:5;
+}
+
+.desnastrana{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 350px;
+    padding-left: 1600px;
+    z-index:6;
+}
+
+.svidijelovi{
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    align-items: center;
+    gap: 90px;
+    z-index:6;
+}
+
+.prvidio{
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    align-items: center;
+    gap: 10px;
+    z-index:6;
+}
+
+.drugidio{
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    align-items: center;
+    gap: 10px;
+    z-index:6;
+}
+
+.trecidio{
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    align-items: center;
+    gap: 10px;
+    z-index:6;
+}
+
+.cetvrtidio{
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    align-items: center;
+    gap: 10px;
+    z-index:6;
+}
+.logo2{
+    position:absolute;
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    align-items: center;
+    padding-top: 49px;
+    padding-left: 112px;
+    padding-right: 133px;
+    z-index:6;
+}
+.malikruzic2{
+    position: absolute;
+    right: 111px;
+    top: 34px;
+    z-index:5;
+}
+.straznjekolo{
+    position: absolute;
+    width: 490px;
+    height: 490px;
+    top: 127px;
+    z-index: 1;
+}
+.shadow1{
+    position:absolute;
+    top:34px;
+    left:0px;
+    z-index:2;
+}
+.shadow2{
+    position:absolute;
+    top:422px;
+    left:0px;
+    z-index:2;
+}
+.textkolo{
+    position:absolute;
+    top:461px;
+    left:160px;
+    z-index:3;
+}
+.okokruga{
+    position:absolute;
+    top:350px;
+    left:52px;
+    z-index:2;
+}
+.mininaslov{
+    position: absolute;
+    top: 684px;
+    left: 62px;
+    z-index: 3;
+}
+.vecitext{
+    position:absolute;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    top: 750px;
+    left: 67px;
+    width: 384px;
+    font-size: 13px;
+    font-weight: 300px;
+    z-index:3;
+}
+.shadowlivo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+.shadowdesno{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+}
+.logo3{
+    position:absolute;
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    align-items: center;
+    padding-top: 1149px;
+    padding-left: 112px;
+    padding-right: 133px;
+    z-index:6;
+}
+.malikruzic3{
+    position: absolute;
+    right: 111px;
+    top: 1134px;
+    z-index:5;
+}
+.front{
+    position: absolute;
+    top:1173px;
+    right: -37px;
+    z-index: 1;
+}
+.shadownafront{
+    position: absolute;
+    top: 1134px;
+    left: 0px;
+    z-index:2;
+}
+.shadownafront2{
+    position:absolute;
+    top:1448px;
+    left:0px;
+    z-index:2;
+}
+.straznjidiomotora{
+    position: absolute;
+    top: 1580px;
+    right: -11px;
+    z-index:1;
+}
+.shadownastraznjidio{
+    position:absolute;
+    top: 1569px;
+    left: 0px;
+    z-index:2;
+}
+.japanskaslova2{
+    position:absolute;
+    top: 1865px;
+    right: -20px;
+    z-index:3;
+}
+.shadownajapanskaslova{
+    position: absolute;
+    top: 1815px;
+    left: 0px;
+    z-index:2;
+}
+.topspeed1{
+    position: absolute;
+    top: 2080px;
+    left: 60px;
+    z-index:3;
+}
+.brzina1{
+    position: absolute;
+    top: 2085px;
+    left: 100px;
+    z-index:3;
+}
+.brzina2{
+    position: absolute;
+    top: 2122px;
+    left: 100px;
+    z-index:3;
+}
+.brzina3{
+    position: absolute;
+    top: 2170px;
+    left: 100px;
+    z-index:3;
+}
+.power1{
+    position: absolute;
+    top: 2098px;
+    left: 320px;
+    z-index:3;
+}
+.snaga1{
+    position: absolute;
+    top: 2085px;
+    left: 350px;
+    z-index:3;
+}
+.snaga2{
+    position: absolute;
+    top: 2122px;
+    left: 350px;
+    z-index:3;
+}
+.snaga3{
+    position: absolute;
+    top: 2170px;
+    left: 350px;
+    z-index:3;
+}
+.shadowlivo2{
+    position:absolute;
+    top:1569px;
+    left:0px;
+    z-index:2;
+}
+.shadowdesno2{
+    position:absolute;
+    top:1569px;
+    right:0px;
+    z-index:2;
+}
+.petica2{
+    position:absolute;
+    top: 2258px;
+    left: 60px;
+    z-index:3;
+}
+.vecacrta{
+    position:absolute;
+    top: 2264px;
+    left: 128px;
+    z-index:3;
+}
+.manjacrta{
+    position: absolute;
+    top:2264px;
+    left: 128px;
+    z-index:4;
+}
+.desetka2{
+    position:absolute;
+    top:2258px;
+    right: 58px;
+    z-index:3;
+}
+.vecitext2{
+    position:absolute;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    top: 2300px;
+    left: 68px;
+    width: 384px;
+    font-size: 13px;
+    font-weight: 300px;
+    z-index:3;
+}
+.okosrca{
+    position:absolute;
+    top:2466px;
+    left:60px;
+    z-index:3;
+}
+.srce{
+    position:absolute;
+    top: 2495px;
+    left: 88px;
+    z-index:4;
+}
+.okoaddtocart{
+    position:absolute;
+    top: 2466px;
+    left: 164px;
+    z-index: 3;
+}
+.addtocart{
+    position:absolute;
+    top:2492px;
+    left:215px;
+    z-index:4;
+}
+@media only screen and (min-width: 481px) {
+    .mobic {
+        display: none;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .kompic {
+        display: none;
+    }
+}
+
